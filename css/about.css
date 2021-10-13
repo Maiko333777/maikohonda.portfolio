@@ -95,26 +95,46 @@
     margin-left: 50px;
 }
 
-.MH {
+.mh {
     width: 50%;
 }
 
+.sec-1__h2_1 p {
+    font-size: 8rem;
+    font-family: "Impact";
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 3%;
+}
 
-.sec-1__h2_1 img {
+
+
+/* .sec-1__h2_1 img {
     width: 30%;
     display: block;
     position: left;
     margin-top: 10px;
     margin-left: 50px;
+} */
+
+.sec-1__h2_2 p {
+    font-size: 8rem;
+    font-family: "Impact";
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    margin-left: 55%;
+    margin-top: 3%;
 }
 
-
-.sec-1__h2_2 img {
+/* .sec-1__h2_2 img {
     width: 50%;
     margin-top: 45px;
     padding-left: 47%;
     margin-right: 1530px;
-}
+} */
 
 .sec-2__flex p {
     font-family: "UD デジタル 教科書体 NP-R";
