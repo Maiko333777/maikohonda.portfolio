@@ -1,1 +1,128 @@
+@charset "utf-8";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.7rem;
+    margin-top: 0;
+    list-style: none;
+    justify-content: flex-end;
+    font-family: "Impact";
+}
+
+.main-nav li {
+    margin-left: 36px;
+    margin-top: 30px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.wrapper {
+    min-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+    margin-top: 0;
+}
+
+#skill {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    background-image: url(../images/toronto-73508_1280.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 450vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+/* .skillsec-1 {
+    
+} */
+
+.skillsec-1__detail {
+    text-align: center;
+    border: solid 10px;
+    width: 80%;
+    margin-left:  9%;
+    line-height: 40px;
+    background-color: rgba(40, 46, 126, 0.8);
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+
+
+.skillsec-1__detail h3 {
+    margin: 16px;
+    padding: 5px;
+    border-bottom: 1.5px solid white;
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    
+}
+
+
+
+.skilllogo p {
+    font-size: 9rem;
+    font-family: "Impact";
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: left;
+    margin-left: 1%;
+    color: white;
+}
+
+
+.item {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 5%;
+}
+
+.item h4 {
+    text-align: left;
+}
+
+.skillsec-1__flex {
+    margin-right: 10%;
+    display: block;
+}
+
+.skillsec-1__flex p {
+    text-align: left;
+}
+
+
+
+.skillsec-1__flex img {
+    display: inline-block;
+    margin-left: 10%;
+    width: 100px;
+    height: auto;
+}
+
+.textbook {
+    margin-left: 15%;
+    text-align: left;
+    width: 80%;
+}
