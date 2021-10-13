@@ -1,1 +1,166 @@
+@charset "utf-8";
 
+/* About */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.7rem;
+    margin-top: 0;
+    list-style: none;
+    justify-content: flex-end;
+    font-family: "Impact";
+}
+
+.main-nav li {
+    margin-left: 36px;
+    margin-top: 30px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.wrapper {
+    min-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+    margin-top: 0;
+}
+
+
+/* .sec-1__detail {
+    background-image: url(../images/Portfolio_about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+} */
+
+.sec-1 {
+    background-attachment: fixed;
+    background-image: url(../images/NYC_forPortrait111.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 350vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.sec-1::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px;
+    background: inherit;
+    filter: blur(5px);
+}
+
+
+
+.sec-1__detail {
+    text-align: left;
+    color: white;
+    text-shadow: 0 0 100px #333;
+    line-height: 2.5rem;
+}
+
+.sec-1__detail p {
+    font-family: "UD デジタル 教科書体 NP-R";
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 60%;
+}
+
+.sec-1__detail_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.mh {
+    width: 50%;
+}
+
+.sec-1__h2_1 p {
+    font-size: 8rem;
+    font-family: "Impact";
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+
+
+/* .sec-1__h2_1 img {
+    width: 30%;
+    display: block;
+    position: left;
+    margin-top: 10px;
+    margin-left: 50px;
+} */
+
+.sec-1__h2_2 p {
+    font-size: 8rem;
+    font-family: "Impact";
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    margin-left: 55%;
+    margin-top: 3%;
+}
+
+/* .sec-1__h2_2 img {
+    width: 50%;
+    margin-top: 45px;
+    padding-left: 47%;
+    margin-right: 1530px;
+} */
+
+.sec-2__flex p {
+    font-family: "UD デジタル 教科書体 NP-R";
+    color: white;
+    line-height: 2.5rem;
+}
+
+.sec-2__flex {
+    display: block;
+    margin-left: 20%;
+}
+
+.sec-2__flexdetail {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.sec-2__flex img {
+    width: 300px;
+    height: auto;
+    margin-left: 80px;
+}
+
+.sec-2__explain {
+    display: block;
+    width: 500px;
+}
