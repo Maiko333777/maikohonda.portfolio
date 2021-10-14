@@ -61,7 +61,7 @@ body::before {
     left: -5px;
     right: -5px;
     background: inherit;
-    filter: blur(2px);
+    filter: blur(px);
 }
 
 .worklogo p {
