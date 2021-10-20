@@ -100,9 +100,18 @@ h3 {
 
 
 .photos {
+    width: 50%;
+    display: block;
+    margin-left: 20%;
+}
+
+.flex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.cntower {
+    padding-top: 30%;
 }
 
 .sec-2_works img {
