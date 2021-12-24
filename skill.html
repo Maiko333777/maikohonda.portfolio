@@ -6,20 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maiko Honda Portfolio-skill</title>
     <link rel="stylesheet" href="css/skill.css">
+    <!-- ↓トップページへ戻るボタン ここから↓ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <!-- ↑トップページへ戻るボタン ここまで↑ -->
+    
 </head>
 <body>
     <section id="skill" class="skillsec-1">
         <div id="top" class="top-wrapper">
             <header class="wrapper">
-                <nav>
+                <!-- ハンバーガーメニュー部分 -->
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                <!-- ハンバーガーメニュー部分 -->
+                <nav class="globalMenuSp">
                     <ul class="main-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="skill.html">Skill</a></li>
-                        <li><a href="work.html">Works</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="menu-list"><a href="index.html">Home</a></li>
+                        <li class="menu-list"><a href="about.html">About</a></li>
+                        <li class="menu-list"><a href="skill.html">Skill</a></li>
+                        <li class="menu-list"><a href="work.html">Works</a></li>
+                        <li class="menu-list"><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
+    
+                
+            
             </header>
         </div>
         
@@ -166,5 +181,35 @@
         </div>
 
     </section>
+
+    <!-- トップページへ戻るボタン -->
+
+    <div id="page_top"><a href="#"></a></div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <script src="js/5-2-4.js">
+        jQuery(function() {
+    var pagetop = $('#page_top');   
+    pagetop.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
+            pagetop.fadeIn();
+        } else {
+            pagetop.fadeOut();
+        }
+    });
+    pagetop.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500); //0.5秒かけてトップへ移動
+        return false;
+    });
+});
+    </script>
+
+    <!--ここまで トップページへ戻るボタン -->
 </body>
 </html>
