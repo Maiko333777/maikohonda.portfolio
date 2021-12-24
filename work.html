@@ -6,19 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maiko Honda Portfolio-work</title>
     <link rel="stylesheet" href="css/work.css">
+    <!-- ↓トップページへ戻るボタン ここから↓ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <!-- ↑トップページへ戻るボタン ここまで↑ -->
+
+    <!--↓ 画像ギャラリー ↓-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" />
+    <!--↑ 画像ギャラリー ↑-->
+    
 </head>
 <body>
     <div id="top" class="top-wrapper">
         <header class="wrapper">
-            <nav>
+            <!-- ハンバーガーメニュー部分 -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            <!-- ハンバーガーメニュー部分 -->
+            <nav class="globalMenuSp">
                 <ul class="main-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="skill.html">Skill</a></li>
-                    <li><a href="work.html">Works</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="menu-list"><a href="index.html">Home</a></li>
+                    <li class="menu-list"><a href="about.html">About</a></li>
+                    <li class="menu-list"><a href="skill.html">Skill</a></li>
+                    <li class="menu-list"><a href="work.html">Works</a></li>
+                    <li class="menu-list"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+
+            
+        
         </header>
     </div>
 
@@ -28,38 +47,72 @@
 
 
     <section class="sec-1">
-        <h3>Photoshops</h3>
-        <div class="photos">
-            <div class="flex">
-                <p><img class="grape" src="img_works/ブドウ.png" alt=""></p>
-                <p><img class="cntower" src="img_works/CN-Tower-Toronto-復元.jpg" alt=""></p>
-            </div>
-            <div class="flex">
-                <p><img src="img_works/dreaminghappy.jpg" alt=""></p>
-                <p><img src="img_works/ManhattanMaiko.png" alt=""></p>
-            </div>
-            <div class="flex">
-                <p><img src="img_works/Maikomanhattan.png" alt=""></p>
-                <p><img src="img_works/Happyinnyc.png" alt=""></p>
-            </div>
-        </div>
+        <h3>Photos</h3>
+
+        <!-- 画像ギャラリー -->
+        <ul class="gallery">
+            <li><a href="/img_works/ブドウ.png" data-lightbox="gallery1" data-title="illustratorで初めて作成した葡萄"><img src="/img_works/ブドウ.png" alt=""></a></li>
+            <li><a href="/img_works/CN-Tower-Toronto-復元.jpg" data-lightbox="gallery1" data-title="雲のイニシャル"><img src="/img_works/CN-Tower-Toronto-復元.jpg" alt=""></a></li>
+            <li><a href="/img_works/dreaminghappy.jpg" data-lightbox="gallery1" data-title="未来に心躍らせる愛犬"><img src="/img_works/dreaminghappy.jpg" alt=""></a></li>
+            <li><a href="/img_works/ManhattanMaiko.png" data-lightbox="gallery1" data-title="文字の彫刻"><img src="/img_works/ManhattanMaiko.png" alt=""></a></li>
+            <li><a href="/img_works/Maikomanhattan.png" data-lightbox="gallery1" data-title="マンハッタンに出現した巨大イニシャル"><img src="/img_works/Maikomanhattan.png" alt=""></a></li>
+            <li><a href="/img_works/Happyinnyc.png" data-lightbox="gallery1" data-title="タイムズスクエアで遊ぶ巨大犬"><img src="/img_works/Happyinnyc.png" alt=""></a></li>
+            <li><a href="/img_works/ワインに合う大人の贅沢チョコレート_完成版.png" data-lightbox="gallery1" data-title="贅沢チョコレートのバナー"><img src="/img_works/ワインに合う大人の贅沢チョコレート_完成版.png" alt=""></a></li>
+            <li><a href="/img_works/brooklynhappy.png" data-lightbox="gallery1" data-title="ブルックリンブリッジで遊ぶ巨大犬"><img src="/img_works/brooklynhappy.png" alt=""></a></li>
+            <li><a href="/img_works/ロゴMaikohonda.png" data-lightbox="gallery1" data-title="企業のロゴ風"><img src="/img_works/ロゴMaikohonda.png" alt=""></a></li>
+            <li><a href="/img_works/roomhappy.png" data-lightbox="gallery1" data-title="壁にかかる写真"><img src="/img_works/roomhappy.png" alt=""></a></li>
+        </ul>
+        <!-- 画像ギャラリー終了 -->
     </section>
-    
-    
 
     <section class="sec-2_works">
         <h3>Pages</h3>
 
         <div class="sec-2_works__flex">
-            <a href="/myprofile/index.html"><img src="img_works/Myprofile.png" alt=""></a>
-            <a href=""><img src="img_works/dreaminghappy.jpg" alt=""></a>
-            <a href=""><img src="img_works/dreaminghappy.jpg" alt=""></a>
-            <a href=""><img src="img_works/dreaminghappy.jpg" alt=""></a>
-            <a href=""><img src="img_works/dreaminghappy.jpg" alt=""></a>
-            <a href=""><img src="img_works/dreaminghappy.jpg" alt=""></a>
-
+            <a href="works/myprofile/index.html"><img src="/img_works/Myprofile.png" alt=""></a>
+            <a href=""><img src="/img_works/dreaminghappy.jpg" alt=""></a>
+            <a href=""><img src="/img_works/dreaminghappy.jpg" alt=""></a>
+            <a href=""><img src="/img_works/dreaminghappy.jpg" alt=""></a>
+            <a href=""><img src="/img_works/dreaminghappy.jpg" alt=""></a>
+            <a href=""><img src="/img_works/dreaminghappy.jpg" alt=""></a>
         </div>
-
     </section>
+
+    <!-- トップページへ戻るボタン -->
+
+    <div id="page_top"><a href="#"></a></div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <script src="js/5-2-4.js">
+        jQuery(function() {
+    var pagetop = $('#page_top');   
+    pagetop.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
+            pagetop.fadeIn();
+        } else {
+            pagetop.fadeOut();
+        }
+    });
+    pagetop.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500); //0.5秒かけてトップへ移動
+        return false;
+    });
+});
+    </script>
+
+    <!--ここまで トップページへ戻るボタン -->
+
+    <!--↓ 画像ギャラリー ↓-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
+    <!--自作のJS-->
+    <script src="js/work6-2-1.js"></script>
+    <!--↑ 画像ギャラリー ↑-->
 </body>
 </html>
