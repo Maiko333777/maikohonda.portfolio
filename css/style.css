@@ -181,13 +181,13 @@ footer {
 
 @media (max-width: 600px) {
     #top {
-        background-image: url(../images/Portfolio_top_phone3.png);
+        background-image: url(../images/Portfolio_top_phone2.png);
     }
 }
 
 @media (max-width: 375px) {
     #top {
-        background-image: url(../images/Portfolio_top_phone3.png);
+        background-image: url(../images/Portfolio_top_phone2.png);
         background-size: relative;
         height: 100%;
         width: 100%;
