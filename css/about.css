@@ -198,7 +198,11 @@
 
 .mypic1 {
     width: 60%;
-    margin: 10%;
+    margin: 0;
+}
+
+.sec-3_mypic1 {
+    text-align: center;
 }
 
 .livephoto-flex {
