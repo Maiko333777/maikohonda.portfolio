@@ -35,6 +35,13 @@
     margin-top: 0;
 }
 
+footer {
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-bottom: 0;
+}
+
 
 /* Works */
 
@@ -96,7 +103,7 @@ h3 {
 
 .sec-2_works img {
     width: 350px;
-    box-shadow: 8px 8px #789be6;
+    box-shadow: 8px 8px #47070a;
     margin-left: 5%;
     margin-top: 20px;
 }
@@ -106,6 +113,56 @@ h3 {
     display: inline-block;
     width: 100%;
     height: auto;
+}
+
+.sec-3_works h3 {
+    width: 100%;
+    padding-top: 10%;
+}
+
+.sec-3_works__flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    padding-left: 8%;
+    width: 100%;
+}
+
+.sec-3_works__flex img {
+    width: 30%;
+    height: auto;
+    margin: 5%;
+}
+
+.sec-3__explain {
+    font-family: "Impact";
+    color: white;
+    line-height: 2.5rem;
+    width: 45%;
+    margin-left: 27%;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.sec-4_works__flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+}
+
+.sec-4_img1 {
+    width: 50%;
+    height: auto;
+}
+
+.sec-4_img2 {
+    width: 15%;
+    height: auto;
+}
+
+.sec-4_works h3 {
+    width: 100%;
+    padding-top: 10%;
 }
 
 /* トップへ戻るボタン */
