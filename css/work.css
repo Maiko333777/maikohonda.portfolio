@@ -361,6 +361,16 @@ h2{
         padding-top: 10%;
         font-size: 6rem;
     }
+    
+    .sec-4_works__flex {
+        display: block;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .sec-4_works__flex img {
+        width: 80%;
+    }
 }
 
 @media (max-width: 480px) {
