@@ -260,7 +260,7 @@ h2{
     display : block;
     position: fixed;
     z-index : 3;
-    right : 15%;
+    right : 30px;
     top   : 12px;
     width : 42px;
     height: 42px;
