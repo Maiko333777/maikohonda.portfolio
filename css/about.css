@@ -245,6 +245,13 @@ h2{
     text-align: center;
   }
 
+footer {
+    text-align: center;
+    width: 100%;
+    background: #000;
+    color: white;
+}
+
 /* -------レスポンシブ------- */
   @media (max-width: 600px) {
 
