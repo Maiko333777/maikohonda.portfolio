@@ -362,6 +362,10 @@ h2{
         font-size: 6rem;
     }
     
+    .sec-2_works__flex {
+        text-align: center;
+    }
+    
     .sec-4_works__flex {
         display: block;
         justify-content: space-around;
