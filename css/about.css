@@ -194,7 +194,11 @@
     height: auto;
     display: contain;
     margin: 1%;
-    
+}
+
+.mypic1 {
+    width: 60%;
+    margin: 10%;
 }
 
 .livephoto-flex {
